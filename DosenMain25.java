@@ -18,7 +18,7 @@ public class DosenMain25 {
             System.out.print("Pilih menu: "); 
             int pilihan = scanner.nextInt(); 
             scanner.nextLine();  
- 
+            
             switch (pilihan) { 
                 case 1: 
                     if (daftarDosen.idx < jumlahDosen) { 
